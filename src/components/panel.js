@@ -6,13 +6,14 @@ import {
   faCog,
   faQuestionCircle,
   faMousePointer,
-  faArrowsAltH
+  faArrowsAltH,
+  faHome,
+  faEllipsisV,
+  faEyeDropper
 } from "@fortawesome/free-solid-svg-icons";
 import { faHandPointUp } from "@fortawesome/free-regular-svg-icons";
 import { faWindows } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
-
-import FlowChart from "./images/flow-chart.png";
 
 class Panel extends Component {
   render() {
@@ -84,11 +85,75 @@ class Panel extends Component {
               <p className="site-name">Hacker News</p>
               <p className="site-url">hackernews.ycombinator.com</p>
               <hr className="devider" />
-              <FontAwesomeIcon className="panel-icon" color="gray" icon={faMousePointer} />
+              <FontAwesomeIcon
+                className="panel-icon"
+                color="gray"
+                icon={faMousePointer}
+              />
               <span className="spacer"></span>
-              <FontAwesomeIcon className="panel-icon" color="gray" icon={faArrowsAltH} />
+              <FontAwesomeIcon
+                className="panel-icon"
+                color="gray"
+                icon={faArrowsAltH}
+              />
             </div>
-            <img src={FlowChart} alt="flow-chart" className="flow-chart" />
+            <div className="flow-chart">
+              <div className="start-box box">
+                <div className="box-left">
+                  <FontAwesomeIcon icon={faHome} />
+                  <p className="process-name">
+                    start
+                    <br />
+                    <span>starting point</span>
+                  </p>
+                </div>
+                <div className="box-right">
+                  <FontAwesomeIcon className="options" icon={faEllipsisV} />
+                </div>
+              </div>
+              <div className="input-box box">
+                <div className="box-left">
+                  <FontAwesomeIcon icon={faICursor} />
+                  <p className="process-name">
+                    input
+                    <br />
+                    <span>input 1assfsf</span>
+                  </p>
+                  <div className="notification">29</div>
+                </div>
+                <div className="box-right">
+                  <FontAwesomeIcon className="options" icon={faEllipsisV} />
+                </div>
+              </div>
+              <div className="extract-box box">
+                <div className="box-left">
+                  <FontAwesomeIcon icon={faWindows} />
+                  <p className="process-name">
+                    extract
+                    <br />
+                    <span>property 1</span>
+                  </p>
+                  <div className="notification"><FontAwesomeIcon icon={faEyeDropper} color="#fff" /></div>
+                </div>
+                <div className="box-right">
+                  <FontAwesomeIcon className="options" icon={faEllipsisV} />
+                </div>
+              </div>
+              <div className="paginate-box box">
+                <div className="box-left">
+                  <FontAwesomeIcon icon={faBook} />
+                  <p className="process-name">
+                    paginate
+                    <br />
+                    <span>standerd</span>
+                  </p>
+                  <div className="notification"><FontAwesomeIcon icon={faEyeDropper} color="#fff" /></div>
+                </div>
+                <div className="box-right">
+                  <FontAwesomeIcon className="options" icon={faEllipsisV} />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
