@@ -113,11 +113,12 @@ a {
 .search-label {
   padding-right: 8px;
 }
+/*Panel*/
 .panel-container {
   position: fixed;
   display: grid;
-  grid-template-columns: 15% 85%;
-  width: 30%;
+  grid-template-columns: 70px 330px;
+  width: 400px;
   right: 0;
   top: 0;
   height: 100%;
@@ -125,19 +126,19 @@ a {
   background-color: #000;
 }
 .right-panel {
-  background-color: rgb(96, 97, 112);
+  background-color: #303743;
 }
 .left-panel {
-  background-color: rgb(69, 73, 80);
+  background-color: #171922;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-right: 1px solid #000;
   box-shadow: #000 2px 2px 20px 2px;
 }
 .panel-icons {
-  height: 75%;
+  height: 450px;
   text-align: center;
-  padding: 15% 0;
+  padding: 20px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -146,28 +147,27 @@ a {
   font-size: 25px;
 }
 .icon-task {
-  color: gray;
+  color: #4f5565;
   font-size: 10pt;
 }
 .function {
-  border-bottom: 4px solid #000;
+  border-bottom: 4px solid #181d26;
 }
 .input-function {
-  border-left: 5px solid aquamarine;
+  border-left: 5px solid #45fcbf;
 }
 .click-function {
-  border-left: 5px solid rgb(245, 93, 93);
+  border-left: 5px solid #db2c3d;
 }
 .paginate-function {
-  border-left: 5px solid yellow;
+  border-left: 5px solid #edfc54;
 }
 .extract-function {
-  border-left: 5px solid rgb(134, 147, 223);
+  border-left: 5px solid #6374ec;
 }
 .top-container {
-  background-color: rgb(69, 73, 80);
-  width: 100%;
-  height: 15%;
+  background-color: #181d26;
+  height: 105px;
   padding: 5%;
   text-align: left;
 }
@@ -178,7 +178,7 @@ a {
   font-size: 14px;
 }
 .site-url {
-  color: gray;
+  color: #5a585d;
   font-size: 10pt;
   margin-top: 0;
 }
@@ -186,7 +186,7 @@ a {
   width: 90%;
   padding: 0;
   margin: 0;
-  border: 0.5px solid gray;
+  border: 0.5px solid #5a585d;
   margin-bottom: 5%;
 }
 .spacer {
@@ -208,16 +208,16 @@ a {
   border-left: 8px solid #fff;
 }
 .input-box {
-  color: aquamarine;
-  border-left: 8px solid aquamarine;
+  color: #45fcbf;
+  border-left: 8px solid #45fcbf;
 }
 .extract-box {
-  color: rgb(134, 147, 223);
-  border-left: 8px solid rgb(134, 147, 223);
+  color: #6374ec;
+  border-left: 8px solid #6374ec;
 }
 .paginate-box {
-  color: yellow;
-  border-left: 8px solid yellow;
+  color: #edfc54;
+  border-left: 8px solid #edfc54;
 }
 .box-left {
   display: flex;
@@ -226,7 +226,7 @@ a {
   align-items: center;
   text-align: center;
   padding-left: 5px;
-  background-color: rgb(128, 130, 146);
+  background-color: #404450;
 }
 
 .process-name {
@@ -240,15 +240,15 @@ a {
   color: rgb(233, 227, 227);
 }
 .options {
-  background-color: rgb(69, 73, 80);
+  background-color: #30353f;
   height: 50px;
   padding: 0 15px;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
-  color: #fff;
+  color: #76787d;
 }
 .notification {
-  background-color: #EA425C;
+  background-color: #E13046;
   font-size: 12px;
   position: absolute;
   width: 20px;
@@ -264,7 +264,7 @@ a {
 .start-box::after {
   position: absolute;
   content: "";
-  height: 50px;
+  height: 45px;
   border: 1.5px dashed rgb(128, 130, 146);
   margin-left: 220px;
   margin-top: 240px;
@@ -283,7 +283,7 @@ a {
 .input-box::after {
   position: absolute;
   content: "";
-  height: 50px;
+  height: 45px;
   border: 1.5px dashed rgb(128, 130, 146);
   margin-left: 220px;
   margin-top: 340px;
@@ -302,7 +302,7 @@ a {
 .extract-box::after {
   position: absolute;
   content: "";
-  height: 50px;
+  height: 45px;
   border: 1.5px dashed rgb(128, 130, 146);
   margin-left: 220px;
   margin-top: 440px;

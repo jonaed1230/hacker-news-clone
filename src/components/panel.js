@@ -26,7 +26,7 @@ class Panel extends Component {
                 <FontAwesomeIcon
                   className="panel-icon"
                   icon={faICursor}
-                  color="gray"
+                  color="#4f5565"
                 />
                 <p className="icon-task">input</p>
               </Link>
@@ -34,7 +34,7 @@ class Panel extends Component {
                 <FontAwesomeIcon
                   className="panel-icon"
                   icon={faHandPointUp}
-                  color="gray"
+                  color="#4f5565"
                 />
                 <p className="icon-task">click</p>
               </Link>
@@ -42,7 +42,7 @@ class Panel extends Component {
                 <FontAwesomeIcon
                   className="panel-icon"
                   icon={faBook}
-                  color="gray"
+                  color="#4f5565"
                 />
                 <p className="icon-task">paginate</p>
               </Link>
@@ -50,7 +50,7 @@ class Panel extends Component {
                 <FontAwesomeIcon
                   className="panel-icon"
                   icon={faWindows}
-                  color="gray"
+                  color="#4f5565"
                 />
                 <p className="icon-task">extract</p>
               </Link>
@@ -58,7 +58,7 @@ class Panel extends Component {
                 <FontAwesomeIcon
                   className="panel-icon"
                   icon={faCog}
-                  color="gray"
+                  color="#4f5565"
                 />
                 <p className="icon-task">state</p>
               </Link>
@@ -66,7 +66,7 @@ class Panel extends Component {
                 <FontAwesomeIcon
                   className="panel-icon"
                   icon={faQuestionCircle}
-                  color="gray"
+                  color="#4f5565"
                 />
                 <p className="icon-task">help</p>
               </Link>
@@ -74,7 +74,7 @@ class Panel extends Component {
                 <FontAwesomeIcon
                   className="panel-icon"
                   icon={faQuestionCircle}
-                  color="gray"
+                  color="#4f5565"
                 />
                 <p className="icon-task">Let's go</p>
               </Link>
@@ -87,13 +87,13 @@ class Panel extends Component {
               <hr className="devider" />
               <FontAwesomeIcon
                 className="panel-icon"
-                color="gray"
+                color="#5c5e66"
                 icon={faMousePointer}
               />
               <span className="spacer"></span>
               <FontAwesomeIcon
                 className="panel-icon"
-                color="gray"
+                color="#5c5e66"
                 icon={faArrowsAltH}
               />
             </div>
